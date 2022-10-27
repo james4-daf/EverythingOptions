@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Options Calculator</title>
+  </head>
+  <body>
+    <h3>Calculate Return</h3>
+    <form onsubmit="calculateReturn(event)">
+      <input id="days" type="number" step="any" placeholder="Days left" />
+      <br />
+      <input
+        id="strike"
+        type="number"
+        required
+        step="any"
+        placeholder="Strike Price"
+      />
+      <br />
+      <input
+        id="prem"
+        type="number"
+        required
+        step="any"
+        placeholder="Premium"
+      />
+
+      <br />
+      <button id="btn" type="submit">Calculate</button>
+    </form>
+
+    <br />
+    <p id="period">Return on period:</p>
+
+    <p id="month">Return per month:</p>
+
+    <p id="year">Return accross the year:</p>
+
+    <script src="script.js"></script>
+  </body>
+</html>
