@@ -1,0 +1,23 @@
+{
+  "name": "optionsCalc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/james4-daf/EverythingOptions.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/james4-daf/EverythingOptions/issues"
+  },
+  "homepage": "https://github.com/james4-daf/EverythingOptions#readme",
+  "devDependencies": {
+    "jest": "^29.2.2"
+  }
+}

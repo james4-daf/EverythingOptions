@@ -12,8 +12,14 @@
   </head>
   <body>
     <h3>Calculate Return</h3>
-    <form onsubmit="calculateReturn(event)">
-      <input id="days" type="number" step="any" placeholder="Days left" />
+    <form onsubmit="calculateAll(event)">
+      <input
+        id="days"
+        type="number"
+        step="any"
+        required
+        placeholder="Days left"
+      />
       <br />
       <input
         id="strike"
@@ -41,6 +47,10 @@
     <p id="month">Return per month:</p>
 
     <p id="year">Return accross the year:</p>
+
+    <p id="collateral">Collateral Needed:</p>
+
+    <p id="premium">Premium collected:</p>
 
     <script src="script.js"></script>
     <script
